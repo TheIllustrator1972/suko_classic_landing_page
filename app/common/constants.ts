@@ -1,7 +1,7 @@
 export const appData = {
   name: "Suko Classic",
-  title: "App Title",
-  description: "This is a brief description of the app.",
+  title: "Suko Classic",
+  description: "A minimalist logic puzzle of numbers and shades.",
   isLaunched: false,
   socialLinks: {
     email: "mailto:theillustrator2001@gmail.com",
@@ -16,8 +16,7 @@ export const appData = {
 export const openGraphMetadata = {
   title: appData.name,
   description: appData.description,
-  // The URL should be the place where the website is deployed
-  url: "https://indie-app-landing-page-template.vercel.app/",
+  url: "https://suko-classic-landing-page.vercel.app/",
   siteName: appData.name,
   images: [
     {
